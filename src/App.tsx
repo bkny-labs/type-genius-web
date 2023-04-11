@@ -10,7 +10,7 @@ function App() {
      <header className="type-genius__header">
         <div className="row">
             <div className="column column-10">
-                <img src={logo} alt="" width="120px"/>
+                <img src={logo} alt="" width="80px"/>
             </div>
             <div className="column column-offset-75">
                 <button>Sign Up</button>

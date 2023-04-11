@@ -8,9 +8,14 @@ body {
   text-align: center;
 }
 .type-genius__header {
-  width: 90%;
-  padding: 20px 0;
+  width: 100%;
+  padding: 5px 45px;
   margin: 0 auto;
+  background: rgb(28 28 28 / 47%);
+}
+
+.type-genius__header .row {
+  align-items: center;
 }
 
 .App-logo {
