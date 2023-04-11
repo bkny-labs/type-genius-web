@@ -1,4 +1,4 @@
-import video from './images/obi_wan.gif';
+import video from './images/demo.gif';
 import './TypeGenius.css'
 
 const TypeGenius = () => {
@@ -6,19 +6,19 @@ const TypeGenius = () => {
     <>
       <div className="type-genius__hero">
         <div className="row">
-            <div className="column column-66 type-genius__hero-title">
-                <h1>Unleash the power of AI-driven text completion</h1>
+            <div className="column column-60 type-genius__hero-title">
+                <h1>Unleash the power of AI driven auto complete</h1>
                 <p className='fakeTextarea'>TextGenius is the Chrome extension that autocompletes your whole world. The peanut| <span className='completion'> butter to your jelly</span></p>
             </div>
-            <div className="column column-40">
+            <div className="column column-30">
             <div
               className="videoContainer"
               style={{
                 backgroundImage: `url(${video})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
-                width: '420px',
-                height: '240px',
+                width: '615px',
+                height: '375px',
                 float: 'right'
               }}
             >
