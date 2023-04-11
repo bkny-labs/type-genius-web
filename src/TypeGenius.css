@@ -1,0 +1,22 @@
+.row .type-genius__hero-title.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+  }
+  .type-genius__hero {
+    width: 80%;
+    margin: 0 auto;
+    padding: 45px;
+    text-align: left;
+  }
+  .type-genius__content {
+    max-width: 50%;
+    margin: 0 auto;
+  }
+  
+
+  .videoContainer {
+    text-align: center;
+    box-shadow: 1px 2px 3px #000;
+  }

@@ -1,5 +1,16 @@
+body {
+  background: #5C258D;
+  background: -webkit-linear-gradient(to right, #4843a2, #5C258D);
+  background: linear-gradient(to right, #4843a2, #5C258D);
+  color: #fff;
+}
 .App {
   text-align: center;
+}
+.type-genius__header {
+  width: 90%;
+  padding: 20px 0;
+  margin: 0 auto;
 }
 
 .App-logo {
@@ -9,7 +20,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    /* animation: App-logo-spin infinite 20s linear; */
   }
 }
 
