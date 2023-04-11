@@ -6,11 +6,11 @@ const TypeGenius = () => {
     <>
       <div className="type-genius__hero">
         <div className="row">
-            <div className="column type-genius__hero-title">
-                <h1>Unleash the power of AI-powered text completion in your browser.</h1>
-                <p className='fakeTextarea'>TextGenius is the Chrome extension that autocompletes your whole world. The peanut <span className='completion'> butter to your jelly</span>|</p>
+            <div className="column column-66 type-genius__hero-title">
+                <h1>Unleash the power of AI-driven text completion</h1>
+                <p className='fakeTextarea'>TextGenius is the Chrome extension that autocompletes your whole world. The peanut| <span className='completion'> butter to your jelly</span></p>
             </div>
-            <div className="column">
+            <div className="column column-40">
             <div
               className="videoContainer"
               style={{
@@ -46,11 +46,8 @@ const TypeGenius = () => {
         <div className="row type-genius__footer">
           <div className="column">
           <h2>"I like generating content!" - said no one ever</h2>
-            <p>Meet TypeGenius. An AI tool that helps you write those big posts and descriptions you love so much.</p>
+            <p>TypeGenius is an AI tool that helps you write those big posts and descriptions you love so much.</p>
             <p>Type Genius is powered by GPT, a state-of-the-art natural language processing AI developed by OpenAI. This groundbreaking Chrome extension elevates your browsing experience by autocompleting your entire world. Now, you can enjoy fast, intelligent, and context-aware autocomplete suggestions for your searches, emails, social media posts, and more!</p>
-          </div>
-          <div className="column">
-            this
           </div>
         </div>
     </>

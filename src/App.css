@@ -4,6 +4,14 @@ body {
   background: linear-gradient(to right, #4843a2, #5C258D);
   color: #fff;
 }
+
+h1 {
+  font-size: 69px;
+}
+
+h1, h2, h3 {
+  font-weight: 900;
+}
 .App {
   text-align: center;
 }
