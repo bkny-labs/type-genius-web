@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://github.com/bkny-labs/type-genius"> 
-    <img width="420px" src="static/images/logo.png">
+    <img width="420px" src="src/images/logo.png">
     </a>
 </p>
 
