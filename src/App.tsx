@@ -14,7 +14,7 @@ function App() {
      <header className="type-genius__header">
         <div className="row">
             <div className="column shrink">
-                <img width="200px" src={logo} alt=""/>
+                <a href="/"><img width="200px" src={logo} alt=""/></a>
             </div>
             <div className="column shrink align-right">
                 <Social />
