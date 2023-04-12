@@ -12,8 +12,8 @@ export default function Subscribe() {
   }
 
   return (
-    <div className="w-full">
-      <div className="row">
+    <div className="subscription-form">
+      {/* <div className="row">
         <div className="column align-center">
           <a href="https://github.com/m4tuna" target="_blank" rel="noreferrer">
           <button className="flex items-center text-sm uppercase rounded mx-auto my-auto bg-white hover:bg-gray-100 text-indigo-500 border border-transparent hover:border-transparent hover:text-gray-500 shadow-md hover:shadow-lg font-medium transition transform hover:-translate-y-0.5">
@@ -31,7 +31,7 @@ export default function Subscribe() {
         </button>
         </a>
         </div>
-      </div>
+      </div> */}
      
       <form 
         className="px-5 pt-5 pb-5 mb-4" 
@@ -46,26 +46,14 @@ export default function Subscribe() {
           </label>
         </p>
         <div className="mb-4">
-          <label className="block text-gray-500 text-sm font-bold mb-2" htmlFor="name">
-            Name
-          </label>
-          <input onChange={handleChange} className="shadow appearance-none border rounded w-full py-2 px-3 text-white bg-white bg-opacity-10 leading-tight focus:outline-none focus:shadow-outline" id="name" name="name" type="text" placeholder="Your name" />
-        </div>
-        <div className="mb-4">
           <label className="block text-gray-500 text-sm font-bold mb-2" htmlFor="email">
             Email
           </label>
           <input onChange={handleChange} className="shadow appearance-none border rounded w-full py-2 px-3 text-white bg-white bg-opacity-10 leading-tight focus:outline-none focus:shadow-outline" id="email" name="email" type="text" placeholder="Email" />
         </div>
-        <div className="mb-4">
-          <label className="block text-gray-500 text-sm font-bold mb-2" htmlFor="message">
-            Message
-          </label>
-          <input onChange={handleChange} className="shadow appearance-none border rounded w-full py-6 px-3 text-white bg-white bg-opacity-10 leading-tight focus:outline-none focus:shadow-outline" id="message" name="message" type="textarea" placeholder="Type your message" />
-        </div>
         <div className="flex items-center justify-between">
           <button type="submit" className="bg-green-900 border-none hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
-            Send
+            Subscribe
           </button>
         </div>
       </form>

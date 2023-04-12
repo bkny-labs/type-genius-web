@@ -1,5 +1,3 @@
-import video from './images/demo.gif';
-import Subscribe from './Subscribe';
 import './Test.scss'
 
 const Test = () => {
