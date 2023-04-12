@@ -15,9 +15,12 @@ h1, h2, h3 {
 .App {
   text-align: center;
 }
+.align-right {
+  text-align: right;
+}
 .type-genius__header {
   width: 100%;
-  padding: 12px 45px;
+  padding: 16px 45px 12px;
   margin: 0 auto;
   background: rgb(28 28 28 / 47%);
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import TypeGenius from './TypeGenius';
-import logo from './images/logo.svg';
+import logo from './images/logo2.svg';
 
 
 function App() {
@@ -9,10 +9,10 @@ function App() {
     <>
      <header className="type-genius__header">
         <div className="row">
-            <div className="column column-10">
-                <img src={logo} alt="" width="90px"/>
+            <div className="column column-20">
+                <img src={logo} alt=""/>
             </div>
-            <div className="column column-offset-75">
+            <div className="column column-offset-60 align-right">
                 <button>Sign Up</button>
             </div>
         </div>
