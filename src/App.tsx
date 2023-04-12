@@ -6,6 +6,7 @@ import Social from './Social';
 import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
 import Test from './Test';
+import Thanks from './Thanks';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Routes>
             <Route path='/' element={<TypeGenius />} />
             <Route path='/test' element={<Test />} />
+            <Route path='/test' element={<Thanks />} />
         </Routes>
       </Router>
     </>

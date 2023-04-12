@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: left;
+    padding-bottom: 40px;
   }
   .type-genius__hero, .type-genius__footer {
     width: 100%;
@@ -52,7 +53,7 @@
   .social {
     position: fixed;
     z-index: 100;
-    top: 10px;
+    top: 20px;
     right: 20px;
     height: 50px;
     width: 100%;

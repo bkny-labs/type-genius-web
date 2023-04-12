@@ -69,6 +69,7 @@ const TypeGenius = () => {
         <div className="row type-genius__footer">
           <div className="column">
           <h1>Subscribe for updates</h1>
+          <p>We won't send any emails other than our release materials.</p>
             <Subscribe />
           </div>
         </div>
