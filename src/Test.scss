@@ -1,0 +1,63 @@
+
+
+
+.autocomplete-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .suggestion-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .custom-textarea {
+    min-height: 160px;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    line-height: 1.4;
+    font-family: 'Consolas', monospace;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    outline: none;
+    border: 1px solid #ccc;
+    color: #fff;
+    background-color: transparent;
+  }
+  
+  .long-textarea {
+    min-height: 5000px;
+  }
+  
+  .suggestion-text, .type-genius-hint {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding: 8px;
+    font-size: 14px;
+    line-height: 1.4;
+    font-family: 'Consolas', monospace;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    color: #999;
+    pointer-events: none;
+    background: #000;
+  }
+  
+  .hidden-text {
+    position: absolute;
+    visibility: hidden;
+    white-space: pre;
+    font-size: 14px;
+    line-height: 1.4;
+    font-family: 'Consolas', monospace;
+  }
+  
+  

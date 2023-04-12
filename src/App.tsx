@@ -3,6 +3,9 @@ import './App.css';
 import TypeGenius from './TypeGenius';
 import logo from './images/logo2.svg';
 import Social from './Social';
+import { BrowserRouter as Router, Routes, Route}
+    from 'react-router-dom';
+import Test from './Test';
 
 
 function App() {
@@ -18,7 +21,12 @@ function App() {
             </div>
         </div>
       </header>
-      <TypeGenius />
+      <Router>
+        <Routes>
+            <Route path='/' element={<TypeGenius />} />
+            <Route path='/test' element={<Test />} />
+        </Routes>
+      </Router>
     </>
   );
 }
