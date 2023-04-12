@@ -11,3 +11,4 @@
 Welcome to **Type Genius** - an AI-powered autocomplete Chrome extension that revolutionizes the way you interact with the web. Type Genius brings the power of GPT to your fingertips, making your browsing experience smarter, faster, and more efficient.
 
 
+This is the website repo, for the extension repository, <a target="_blank" href="https://github.com/bkny-labs/type-genius">go here</a>.
