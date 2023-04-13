@@ -26,16 +26,24 @@ export default function Subscribe() {
             Don’t fill this out: <input name="bot-field" onChange={handleChange} />
           </label>
         </p>
-        <div className="mb-4">
-          <label className="block text-gray-500 text-sm font-bold mb-2" htmlFor="email">
-            Email
-          </label>
-          <input onChange={handleChange} className="shadow appearance-none border rounded w-full py-2 px-3 text-white bg-white bg-opacity-10 leading-tight focus:outline-none focus:shadow-outline" id="email" name="email" type="text" placeholder="Email" />
+        <div className="row items-center justify-center text-center">
+          <div className="column">
+            <div>
+            <label className="block text-gray-500 text-sm font-bold" htmlFor="email">
+              Email
+            </label>
+            <input onChange={handleChange} className="shadow appearance-none border rounded w-full py-2 px-3 text-white bg-white bg-opacity-10 leading-tight focus:outline-none focus:shadow-outline" id="email" name="email" type="text" placeholder="Email" />
+          </div>
+          </div>
+          <div className="column shrink">
+            <button type="submit" className="mt-5 bg-purple-900 border-none hover:bg-purple-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+              Subscribe
+            </button>
+          </div>
         </div>
+        
         <div className="flex items-center justify-between">
-          <button type="submit" className="bg-purple-900 border-none hover:bg-purple-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
-            Subscribe
-          </button>
+          
         </div>
       </form>
     </div>
