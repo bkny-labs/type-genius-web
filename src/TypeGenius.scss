@@ -1,3 +1,6 @@
+
+@import 'scss/grid';
+
 .download {
   width: 224px;
   margin-top: 20px;
@@ -19,6 +22,9 @@
     padding: 95px 65px;
     text-align: left;
     background: rgb(0 0 0 / 61%);
+    @include respond-to(medium) {
+      padding: 40px 10px;
+    }
   }
 
   .type-genius__footer {
@@ -75,3 +81,8 @@
     }
   }
   
+.videoContainer {
+  @include respond-to(medium) {
+    display: none;
+  }
+}
