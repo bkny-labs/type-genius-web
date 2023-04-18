@@ -1,4 +1,4 @@
-import { FaChrome } from 'react-icons/fa';
+import { FaChrome, FaExternalLinkAlt } from 'react-icons/fa';
 import video from './images/demo.gif';
 import Subscribe from './Subscribe';
 import './TypeGenius.scss'
@@ -78,6 +78,8 @@ const TypeGenius = () => {
           <h1>Subscribe for updates</h1>
           <p>We won't send any emails other than our release materials.</p>
             <Subscribe />
+                <p><a className='inline' href="https://github.com/bkny-labs/type-genius/issues" target='_blank' rel="noreferrer">See something? Say something <FaExternalLinkAlt /></a>.</p>
+                <p className="tiny">Our extension is fresh off the press. Please let us know if you find any issues in your testing!</p>
           </div>
         </div>
     </>
