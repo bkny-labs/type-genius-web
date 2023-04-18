@@ -13,6 +13,7 @@ const TypeGenius = () => {
                 <p className='fakeTextarea'>TextGenius is the Chrome extension that autocompletes your whole world. The peanut| <span className='completion'> butter to your jelly</span></p>
                 <a href="https://chrome.google.com/webstore/detail/type-genius/ejokcdmbiifiagicppiakpneifaofghh" 
                 target='_blank'
+                rel="noreferrer"
                 className="download bg-purple-900 border-none hover:bg-purple-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
                   <FaChrome /> Download for Chrome
                 </a>
