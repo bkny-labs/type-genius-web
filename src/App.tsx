@@ -26,7 +26,7 @@ function App() {
         <Routes>
             <Route path='/' element={<TypeGenius />} />
             <Route path='/test' element={<Test />} />
-            <Route path='/test' element={<Thanks />} />
+            <Route path='/thanks' element={<Thanks />} />
         </Routes>
       </Router>
     </>
